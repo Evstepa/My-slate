@@ -202,6 +202,7 @@ body {
 .hero__screen {
   position: relative;
   padding-bottom: 52px;
+  text-align: center;
 }
 
 .screen__gradient {
@@ -298,4 +299,63 @@ body {
   text-align: left;
   font-size: 16px;
   line-height: 24px; /* 150% */
+}
+
+/* extensions */
+.extensions__container {
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+.extensions__text {
+  flex-direction: column;
+  max-width: 572px;
+}
+
+.extensions__title {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+}
+
+.extensions__list {
+  gap: 30px;
+}
+
+.extensions__card {
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  max-width: 476px;
+  color: var(--color-back);
+  background-color: var(--color-white);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.card__descr {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.card__img {
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
 }
