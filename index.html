@@ -8,28 +8,27 @@
 
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
   <header class="header">
     <div class="container header__container flex">
-      <div class="logo header__logo">
-        <a href="#">
-          <img src="./img/Logo.png" alt="Scale" srcset="">
-        </a>
-      </div>
+      <a href="#" class="logo header__logo">
+        <img src="./img/Logo.png" alt="Scale" class="logo__img">
+      </a>
       <nav class="header__nav nav">
         <ul class="list-reset nav__list flex">
           <li class="nav__item">
-            <a href="#" class="">Возможности</a>
+            <a href="#opportunities" class="link">Возможности</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="">Расширения</a>
+            <a href="#extensions" class="link">Расширения</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="">Галерея</a>
+            <a href="#galary" class="link">Галерея</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="">Отзывы</a>
+            <a href="#reviews" class="link">Отзывы</a>
           </li>
         </ul>
       </nav>
@@ -65,7 +64,7 @@
       </div>
     </section>
 
-    <section class="opportunities">
+    <section id="opportunities" class="opportunities">
       <div class="container opportunities__container flex">
         <div class="opportunities__text flex">
           <h2 class="title opportunities__title">
@@ -78,10 +77,10 @@
         <div class="content opportunities__content flex">
           <div class="content__img">
             <div class="">
-              <img src="./img/Chat Bot vertical.png" alt="">
+              <img src="./img/Chat_Bot_vertical.png" alt="">
             </div>
             <div class="content__img-move">
-              <img src="./img/Line Chart 1.png" alt="">
+              <img src="./img/Line_Chart_1.png" alt="">
             </div>
           </div>
           <div class="content__text">
@@ -116,7 +115,7 @@
       </div>
     </section>
 
-    <section class="extensions">
+    <section id="extensions" class="extensions">
       <div class="container extensions__container flex">
         <div class="extensions__text flex">
           <h2 class="title extensions__title">
@@ -138,7 +137,7 @@
               <button class="btn-reset btn card__btn btn-active">
                 Скачать
               </button>
-              <img src="./img/Macbook Pro.png" alt="" class="card__img">
+              <img src="./img/Macbook_Pro.png" alt="" class="card__img">
             </li>
             <li class="card extensions__card flex">
               <h5 class="title card__title">
@@ -150,14 +149,14 @@
               <button class="btn-reset btn card__btn btn-active">
                 Попробовать бесплатно
               </button>
-              <img src="./img/Boards Notifications.png" alt="" class="card__img">
+              <img src="./img/Boards_Notifications.png" alt="" class="card__img">
             </li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="galary">
+    <section id="galary" class="galary">
       <div class="container galary__container flex">
         <div class="galary__text flex">
           <h2 class="title galary__title">
@@ -236,7 +235,7 @@
       </div>
     </section>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
       <div class="container reviews__container flex">
         <div class="reviews__text flex">
           <h2 class="title reviews__title">
@@ -307,16 +306,16 @@
             <p class="title footer__subtitle">Основное</p>
             <ul class="list-reset footer__sublist flex">
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Возможности</a>
+                <a href="#opportunities" class="footer__subitem-link link">Возможности</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Расширения</a>
+                <a href="#extensions" class="footer__subitem-link link">Расширения</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Галерея</a>
+                <a href="#galary" class="footer__subitem-link link">Галерея</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Отзывы</a>
+                <a href="#reviews" class="footer__subitem-link link">Отзывы</a>
               </li>
             </ul>
           </li>
@@ -324,16 +323,16 @@
             <p class="title footer__subtitle">Ресурсы</p>
             <ul class="list-reset footer__sublist flex">
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Приложение</a>
+                <a href="#" class="footer__subitem-link link">Приложение</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Обновления</a>
+                <a href="#" class="footer__subitem-link link">Обновления</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Скрипты</a>
+                <a href="#" class="footer__subitem-link link">Скрипты</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Документация</a>
+                <a href="#" class="footer__subitem-link link">Документация</a>
               </li>
             </ul>
           </li>
@@ -341,13 +340,13 @@
             <p class="title footer__subtitle">Мы</p>
             <ul class="list-reset footer__sublist flex">
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">О приложении</a>
+                <a href="#" class="footer__subitem-link link">О приложении</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Контакты</a>
+                <a href="#" class="footer__subitem-link link">Контакты</a>
               </li>
               <li class="footer__subitem">
-                <a href="#" class="footer__subitem-link">Связаться</a>
+                <a href="#" class="footer__subitem-link link">Связаться</a>
               </li>
             </ul>
           </li>
@@ -355,20 +354,24 @@
       </nav>
       <div class="contacts footer__contacts">
         <ul class="list-reset contacts__list flex">
-          <li class="contacts__item flex">
-            <svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M23 27.3802C27.2282 27.3802 30.6667 23.9417 30.6667 19.7135C30.6667 15.4854 27.2282 12.0469 23 12.0469C18.7719 12.0469 15.3334 15.4854 15.3334 19.7135C15.3334 23.9417 18.7719 27.3802 23 27.3802ZM23 15.8802C25.1141 15.8802 26.8334 17.5995 26.8334 19.7135C26.8334 21.8276 25.1141 23.5469 23 23.5469C20.886 23.5469 19.1667 21.8276 19.1667 19.7135C19.1667 17.5995 20.886 15.8802 23 15.8802Z" fill="white"/>
-              <path d="M21.8885 42.3572C22.2129 42.5889 22.6015 42.7134 23.0001 42.7134C23.3987 42.7134 23.7874 42.5889 24.1118 42.3572C24.6945 41.9451 38.389 32.057 38.3335 19.7137C38.3335 11.2593 31.4545 4.38037 23.0001 4.38037C14.5457 4.38037 7.66679 11.2593 7.66679 19.7041C7.61121 32.057 21.3058 41.9451 21.8885 42.3572ZM23.0001 8.2137C29.3424 8.2137 34.5001 13.3715 34.5001 19.7233C34.5404 28.2295 26.0898 35.8674 23.0001 38.3725C19.9124 35.8655 11.4599 28.2256 11.5001 19.7137C11.5001 13.3715 16.6579 8.2137 23.0001 8.2137Z" fill="white"/>
-            </svg>
-            <p class="contacts__content">
-              ул. Московская, д&nbsp;1.
-            </p>
+          <li class="contacts__item">
+            <a href="#" class="contacts__content link flex">
+              <svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 27.3802C27.2282 27.3802 30.6667 23.9417 30.6667 19.7135C30.6667 15.4854 27.2282 12.0469 23 12.0469C18.7719 12.0469 15.3334 15.4854 15.3334 19.7135C15.3334 23.9417 18.7719 27.3802 23 27.3802ZM23 15.8802C25.1141 15.8802 26.8334 17.5995 26.8334 19.7135C26.8334 21.8276 25.1141 23.5469 23 23.5469C20.886 23.5469 19.1667 21.8276 19.1667 19.7135C19.1667 17.5995 20.886 15.8802 23 15.8802Z" fill="white"/>
+                <path d="M21.8885 42.3572C22.2129 42.5889 22.6015 42.7134 23.0001 42.7134C23.3987 42.7134 23.7874 42.5889 24.1118 42.3572C24.6945 41.9451 38.389 32.057 38.3335 19.7137C38.3335 11.2593 31.4545 4.38037 23.0001 4.38037C14.5457 4.38037 7.66679 11.2593 7.66679 19.7041C7.61121 32.057 21.3058 41.9451 21.8885 42.3572ZM23.0001 8.2137C29.3424 8.2137 34.5001 13.3715 34.5001 19.7233C34.5404 28.2295 26.0898 35.8674 23.0001 38.3725C19.9124 35.8655 11.4599 28.2256 11.5001 19.7137C11.5001 13.3715 16.6579 8.2137 23.0001 8.2137Z" fill="white"/>
+              </svg>
+              <address>
+                ул. Московская, д&nbsp;1.
+              </address>
+            </a>
           </li>
-          <li class="contacts__item flex">
-            <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M23.3333 1.50537H11.6666C9.24579 1.50537 7.29163 3.45954 7.29163 5.88037V29.2137C7.29163 31.6345 9.24579 33.5887 11.6666 33.5887H23.3333C25.7541 33.5887 27.7083 31.6345 27.7083 29.2137V5.88037C27.7083 3.45954 25.7541 1.50537 23.3333 1.50537ZM20.4166 30.672H14.5833V29.2137H20.4166V30.672ZM25.1562 26.297H9.84371V5.88037H25.1562V26.297Z" fill="white"/>
-            </svg>
-            <a href="tel:+79414323211" class="contacts__content">+7 (941) 432-32-11</a>
+          <li class="contacts__item">
+            <a href="tel:+79414323211" class="contacts__content link flex">
+              <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.3333 1.50537H11.6666C9.24579 1.50537 7.29163 3.45954 7.29163 5.88037V29.2137C7.29163 31.6345 9.24579 33.5887 11.6666 33.5887H23.3333C25.7541 33.5887 27.7083 31.6345 27.7083 29.2137V5.88037C27.7083 3.45954 25.7541 1.50537 23.3333 1.50537ZM20.4166 30.672H14.5833V29.2137H20.4166V30.672ZM25.1562 26.297H9.84371V5.88037H25.1562V26.297Z" fill="white"/>
+              </svg>
+              +7 (941) 432-32-11
+            </a>
           </li>
           <li class="contacts__item social footer__social">
             <ul class="list-reset social__list flex">
