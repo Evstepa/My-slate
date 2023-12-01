@@ -201,7 +201,6 @@ body {
 /* header */
 .header__container {
   max-width: 1534px;
-  gap: 90px;
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px;
@@ -488,7 +487,9 @@ body {
   gap: 26px;
   margin: 0;
   padding: 26px 30px 35px 38px;
-  width: 430px;
+  max-width: 430px;
+  min-width: 350px;
+  width: max-content;
   border: 1px solid var(--color-white);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -579,6 +580,10 @@ body {
 
 .contacts__content:hover svg path {
   fill: var(--color-border);
+}
+
+.contacts__address {
+  font-style: normal;
 }
 
 .social__list {
