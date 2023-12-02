@@ -583,7 +583,7 @@ body {
   padding-left: 10px;
 }
 
-.social__item svg path {
+.social__item-link svg path {
  fill: var(--color-white);
  transition: fill 0.3s ease-in-out;
  -webkit-transition: fill 0.3s ease-in-out;
@@ -592,15 +592,15 @@ body {
  -o-transition: fill 0.3s ease-in-out;
 }
 
-.social__item:focus svg path {
+.social__item-link:focus svg path {
   fill: var(--color-border);
 }
 
-.social__item:hover svg path {
+.social__item-link:hover svg path {
   fill: var(--color-border);
 }
 
-.social__item:active svg path {
+.social__item-link:active svg path {
   fill: var(--color-active);
 }
 
