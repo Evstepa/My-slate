@@ -60,7 +60,7 @@
       </div>
       <div class="screen hero__screen">
         <picture>
-          <source srcset="./img/screens.png" media="(min-width: 540px)">
+          <source srcset="./img/screens.png" media="(min-width: 700px)">
           <source srcset="./img/screens_small.png" media="(min-width: 320px)">
           <img src="./img/screens.png" alt="">
         </picture>
@@ -80,12 +80,11 @@
         </div>
         <div class="content opportunities__content flex">
           <div class="content__img">
-            <div class="">
-              <img src="./img/Chat_Bot_vertical.png" alt="">
-            </div>
-            <div class="content__img-move">
-              <img src="./img/Line_Chart_1.png" alt="">
-            </div>
+            <picture>
+              <source srcset="./img/opo.png" media="(min-width: 1101px)">
+              <source srcset="./img/opo_mobile.png" media="(min-width: 320px)">
+              <img src="./img/opo.png" alt="">
+            </picture>
           </div>
           <div class="content__text">
             <ul class="list-reset content__list">
@@ -132,24 +131,28 @@
         <div class="content extensions__content">
           <ul class="list-reset extensions__list flex">
             <li class="card extensions__card flex">
-              <h5 class="title card__title">
-                Работа под защитой
-              </h5>
-              <p class="descr card__descr">
-                Вы&nbsp;когда-нибудь задумывались, хорошо&nbsp;ли&nbsp;защищён ваш рабочий аккаунт? Slate&nbsp;Safe поможет вам с&nbsp;этим.
-              </p>
+              <div>
+                <h5 class="title card__title">
+                  Работа под защитой
+                </h5>
+                <p class="descr card__descr">
+                  Вы&nbsp;когда-нибудь задумывались, хорошо&nbsp;ли&nbsp;защищён ваш рабочий аккаунт? Slate&nbsp;Safe поможет вам с&nbsp;этим.
+                </p>
+              </div>
               <button class="btn-reset btn card__btn btn-active">
                 Скачать
               </button>
               <img src="./img/Macbook_Pro.png" alt="" class="card__img">
             </li>
             <li class="card extensions__card flex">
-              <h5 class="title card__title">
-                Slate не&nbsp;конкурирует, а&nbsp;дружит&nbsp;со&nbsp;своими &laquo;коллегами&raquo;
-              </h5>
-              <p class="descr card__descr">
-                Свяжите задачи в&nbsp;Slate Connect с&nbsp;задачами в&nbsp;других системах планирования проектов.
-              </p>
+              <div>
+                <h5 class="title card__title">
+                  Slate не&nbsp;конкурирует, а&nbsp;дружит&nbsp;со&nbsp;своими &laquo;коллегами&raquo;
+                </h5>
+                <p class="descr card__descr">
+                  Свяжите задачи в&nbsp;Slate Connect с&nbsp;задачами в&nbsp;других системах планирования проектов.
+                </p>
+              </div>
               <button class="btn-reset btn card__btn btn-active">
                 Попробовать бесплатно
               </button>
@@ -173,24 +176,40 @@
         <div class="content galary__content">
           <ul class="list-reset galary__list flex">
             <li class="galary__item">
-              <img src="./img/galary/card1.jpg" alt="">
+              <picture>
+                <source srcset="./img/galary/card1.jpg" media="(min-width: 1101px)">
+                <source srcset="./img/galary/card1_mobile.jpg" media="(min-width: 320px)">
+                <img src="./img/galary/card1.jpg" alt="">
+              </picture>
             </li>
             <li class="galary__item">
-              <img src="./img/galary/card2.jpg" alt="">
+              <picture>
+                <source srcset="./img/galary/card2.jpg" media="(min-width: 1101px)">
+                <source srcset="./img/galary/card2_mobile.jpg" media="(min-width: 320px)">
+                <img src="./img/galary/card2.jpg" alt="">
+              </picture>
             </li>
             <li class="galary__item">
-              <img src="./img/galary/card3.jpg" alt="">
+              <picture>
+                <source srcset="./img/galary/card3.jpg" media="(min-width: 1101px)">
+                <source srcset="./img/galary/card3_mobile.jpg" media="(min-width: 320px)">
+                <img src="./img/galary/card3.jpg" alt="">
+              </picture>
             </li>
             <li class="galary__item">
-              <img src="./img/galary/card4.jpg" alt="">
+              <picture>
+                <source srcset="./img/galary/card4.jpg" media="(min-width: 1101px)">
+                <source srcset="./img/galary/card4_mobile.jpg" media="(min-width: 320px)">
+                <img src="./img/galary/card4.jpg" alt="">
+              </picture>
             </li>
-            <li class="galary__item">
+            <li class="galary__item desctop-visible">
               <img src="./img/galary/card5.jpg" alt="">
             </li>
-            <li class="galary__item">
+            <li class="galary__item desctop-visible">
               <img src="./img/galary/card6.jpg" alt="">
             </li>
-            <li class="galary__item">
+            <li class="galary__item desctop-visible">
               <img src="./img/galary/card7.jpg" alt="">
             </li>
           </ul>
@@ -222,14 +241,26 @@
             <li class="partners__item">
               <img src="./img/partners/logos_android-icon.svg" alt="">
             </li>
-            <li class="partners__item">
-              <img src="./img/partners/logos_basecamp.svg" alt="">
+            <li class="partners__item mobile-width">
+              <picture>
+                <source srcset="./img/partners/logos_basecamp.svg" media="(min-width: 731px)">
+                <source srcset="./img/partners/logos_basecamp_mobile.svg" media="(min-width: 320px)">
+                <img src="./img/partners/logos_basecamp.svg" alt="">
+              </picture>
             </li>
-            <li class="partners__item">
-              <img src="./img/partners/logos_airbnb.svg" alt="">
+            <li class="partners__item mobile-width">
+              <picture>
+                <source srcset="./img/partners/logos_airbnb.svg" media="(min-width: 731px)">
+                <source srcset="./img/partners/logos_airbnb_mobile.svg" media="(min-width: 320px)">
+                <img src="./img/partners/logos_airbnb.svg" alt="">
+              </picture>
             </li>
-            <li class="partners__item">
-              <img src="./img/partners/logos_ibm.svg" alt="">
+            <li class="partners__item mobile-width">
+              <picture>
+                <source srcset="./img/partners/logos_ibm.svg" media="(min-width: 731px)">
+                <source srcset="./img/partners/logos_ibm_mobile.svg" media="(min-width: 320px)">
+                <img src="./img/partners/logos_ibm.svg" alt="">
+              </picture>
             </li>
           </ul>
         </div>

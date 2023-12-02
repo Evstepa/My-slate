@@ -57,10 +57,6 @@ body {
   --color-active: #4452FE;
   --color-white: #FFFFFF;
   --color-border: rgb(65, 208, 237);
-  /* indents */
-  /* --container-gap: 160px;
-  --top-indent: 80px;
-  --bottom-indent: 85px; */
 }
 
 .list-reset {
@@ -157,7 +153,7 @@ body {
 }
 
 .link {
-  padding: 10px;
+  padding: 9px;
   border:none;
   outline: none;
   color: var(--color-white);
@@ -195,12 +191,10 @@ body {
   margin: 0 auto;
   padding: 50px 200px;
   padding-bottom: 40px;
-  border: 1px solid var(--color-white);
 }
 
 /* header */
 .header__container {
-  max-width: 1534px;
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px;
@@ -227,10 +221,6 @@ body {
 
 .nav__list {
   gap: 20px;
-}
-
-.nav__item {
-  padding: 10px;
 }
 
 .btn-login {
@@ -389,6 +379,7 @@ body {
 }
 
 .card__title {
+  margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -531,8 +522,8 @@ body {
 .footer__container {
   justify-content: space-between;
   margin-bottom: 90px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   max-width: 930px;
 }
 
