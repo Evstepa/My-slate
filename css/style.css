@@ -453,11 +453,44 @@ body {
 .partners__list {
   gap: 74px;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .partners__item {
   flex-shrink: 0;
+  border-spacing: 5px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+}
+
+.partners__item:focus,
+.partners__item:hover {
+  opacity: 0.8;
+}
+
+.partners__item:active {
+  opacity: 1;
+}
+
+.partner__link img {
+  transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  -ms-transition: transform 1s ease-in-out;
+  -o-transition: transform 1s ease-in-out;
+}
+
+.partner__link img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 /* reviews */
