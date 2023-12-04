@@ -25,13 +25,14 @@
     gap: 0;
   }
 
+  .header__logo {
+    width: 161px;
+  }
+
   .hero__title {
     font-size: 60px;
     font-weight: 500;
     line-height: 72px;
-  }
-  .header__logo {
-    width: 161px;
   }
 
   .desctop-visible {
@@ -61,7 +62,7 @@
     padding-bottom: 57px;
   }
 
-  .screen__gradient {
+  .hero__gradient {
     height: 430px;
   }
 
@@ -78,12 +79,16 @@
   .footer__container {
     max-width: 240px;
     flex-direction: column;
-    gap: 65px;
+    gap: 70px;
   }
 
   .footer__list {
     flex-direction: column;
-    gap: 70px;
+    gap: 68px;
+  }
+
+  .social__list {
+    gap: 7px;
   }
 }
 
@@ -109,6 +114,10 @@
     padding: 15px 50px;
   }
 
+  .hero__container {
+    margin-bottom: 60px;
+  }
+
   .hero__text {
     gap: 5px;
     padding-bottom: 56px;
@@ -127,12 +136,14 @@
     padding-top: 0;
   }
 
-  .hero__screen {
-    margin-bottom: 125px;
-    padding-bottom: 50px;
+  .hero__container:after {
+    content:url('../img/screens_small.png');
+    top: 57px;
+    padding-bottom: 120px;
   }
 
-  .screen__gradient {
+  .hero__gradient {
+    top: 65%;
     height: 328px;
     background: linear-gradient(180deg, rgba(30, 30, 30, 0.00) 0%, #0E0E0E 100%);
   }
@@ -151,7 +162,7 @@
   }
 
   .extensions__container {
-    margin-bottom: 150px;
+    margin-bottom: 154px;
   }
 
   .extensions__content {
@@ -206,13 +217,16 @@
   }
 
   .reviews__container {
-    margin-bottom: 200px;
+    margin-bottom: 206px;
+  }
+
+  .reviews__card {
+    padding: 26px 40px 35px 45px;
   }
 
   .reviews__card .card__descr {
     max-width: 260px;
   }
-
 }
 
 @media (max-width: 480px) {
